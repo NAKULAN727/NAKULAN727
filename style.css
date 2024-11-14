@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#app{
+    background-color: rgb(218, 211, 211);
+    padding: 100px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+}
+#counter{
+    margin:25px;
+    padding: 10px;
+}
+#incrementbutton{
+    padding:5px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#decrementbutton{
+    padding:5px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#incrementbutton:hover{
+    background-color: black;
+    color:white;
+}
+#decrementbutton:hover{
+    background-color: black;
+    color:white;
+}
+#counter{
+    font-size: 40px;
+}
